@@ -2,10 +2,16 @@ import React from "react";
 
 const App = () => {
   return (
-    <div className="bg-red-300">
-      <h1>{import.meta.env.VITE_CHATGPTKEY}</h1>
-      <div className="text-2xl">App</div>
-      <div>App</div>
+    <div className="bg-red-300 text-center h-screen w-screen relative">
+      {/* <h1>{import.meta.env.VITE_CHATGPTKEY}</h1> */}
+      <div className="container absolute border-red-500 border-2 w-[30%]  h-[40%] left-2/4 top-2/4 -translate-y-2/4 -translate-x-2/4 rounded-xl">
+      <h1 className="text-2xl font-bold p-1">Umashnakar UIkey</h1>
+      <h2>Web Devlopper</h2>
+
+<p className="px-3 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ipsa placeat provident inventore totam maxime temporibus ab, ut similique obcaecati facere, labore velit corporis illo? Ullam fuga eum consequatur pariatur?</p>
+      <button className="px-4 py-2 bg-slate-700 text-white text-2xl rounded mt-6">Contact me  </button>
+      </div>
+    
     </div>
   );
 };
