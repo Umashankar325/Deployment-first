@@ -9,7 +9,7 @@ const App = () => {
       <h2>Web Devlopper</h2>
 
 <p className="px-3 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad ipsa placeat provident inventore totam maxime temporibus ab, ut similique obcaecati facere, labore velit corporis illo? Ullam fuga eum consequatur pariatur?</p>
-      <button className="px-4 py-2 bg-slate-700 text-white text-2xl rounded mt-6">Contact Me  </button>
+      <button className="px-4 py-2 bg-slate-700 text-white text-2xl rounded mt-6">Contact me  </button>
       </div>
     
     </div>
